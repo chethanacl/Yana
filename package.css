@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo', serif,Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background: linear-gradient(745deg,#e05915,#e6e9f0,#e05915,#e6e9f0);
+}
+.header{
+    width: auto;
+    height: 80px;
+    font-size: 30px;
+    text-align: center;
+    background: black;
+    color: #e6e9f0;
+    padding-top: 30px;
+    letter-spacing: 0.3rem;
+}
+.container{
+    margin: 40px auto 20px auto;
+    display:block;
+    align-items: center;
+    width: 50%;
+    height: 970px;
+    background:#e6e9f0;
+    box-shadow: 0px 8px 15px #183475;
+}
+.package-image img{
+    max-width: 100%;
+    min-height: 300px;
+}
+.package-details #place-name{
+    font-size: 25px;
+    letter-spacing: 0.1rem;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-style: bold;
+    color: #828606;
+}
+.package-details #cost{
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.package-details ul{
+    margin-top: 8px;
+    padding-left: 10px;
+}
+.package-details li{
+    list-style-type:none;
+    padding: 0 20px 0 30px;
+    line-height: 1.3rem;
+}
+.package-details button{
+    margin: 20px 20px 0 0;
+    background: #431c5d;
+    color: #e6e9f0;
+    border-style: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 38px;
+    
+    transition: all 0.3s ease 0s;
+}
+.package-details button:hover{
+    font-size: 18px;
+    cursor: pointer;
+    background: #e05915;
+    box-shadow: 0px 15px 20px #e6e9f0;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+#wild-img{
+    margin-left: 130px;
+}
+
+
+@media (max-width:800px){
+    .header{
+        height: 50px;
+        padding-top: 20px;
+    }
+    .container{
+        width: 90%;
+        height:auto;
+    }
+    .package-image img{
+        max-width: 100%;
+        min-height: 100px;
+    }
+    .package-details #place-name{
+        font-size: 20px;
+    }
+    .package-details ul{
+        font-size: 12px;
+        line-height: 0.9rem;
+    }
+    .package-details button{
+        margin-bottom: 20px;
+    }
+    #wild-img{
+        margin-left: 0px;
+    }
+}
