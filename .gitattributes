@@ -1,1 +1,1 @@
-*.hh linguist-language=PHP
+*.hh, .hack linguist-language=PHP
